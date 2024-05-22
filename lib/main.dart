@@ -1,5 +1,5 @@
-import 'package:ecommerce_mobile_app/Provider/cart_provider.dart';
-import 'package:ecommerce_mobile_app/Provider/favorite_provider.dart';
+import 'package:ecommerce_flutter_app/Provider/cart_provider.dart';
+import 'package:ecommerce_flutter_app/Provider/favorite_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'screens/nav_bar_screen.dart';

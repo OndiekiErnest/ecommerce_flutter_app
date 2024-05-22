@@ -1,7 +1,7 @@
-import 'package:ecommerce_mobile_app/constants.dart';
-import 'package:ecommerce_mobile_app/screens/Cart/cart_screen.dart';
-import 'package:ecommerce_mobile_app/screens/Home/home_screen.dart';
-import 'package:ecommerce_mobile_app/screens/Profile/profile.dart';
+import 'package:ecommerce_flutter_app/constants.dart';
+import 'package:ecommerce_flutter_app/screens/Cart/cart_screen.dart';
+import 'package:ecommerce_flutter_app/screens/Home/home_screen.dart';
+import 'package:ecommerce_flutter_app/screens/Profile/profile.dart';
 import 'package:flutter/material.dart';
 import 'Favorite/favorite.dart';
 

@@ -1,10 +1,10 @@
-import 'package:ecommerce_mobile_app/constants.dart';
-import 'package:ecommerce_mobile_app/models/product_model.dart';
-import 'package:ecommerce_mobile_app/screens/Detail/widgets/addto_cart.dart';
-import 'package:ecommerce_mobile_app/screens/Detail/widgets/description.dart';
-import 'package:ecommerce_mobile_app/screens/Detail/widgets/detail_app_bar.dart';
-import 'package:ecommerce_mobile_app/screens/Detail/widgets/image_slider.dart';
-import 'package:ecommerce_mobile_app/screens/Detail/widgets/items_details.dart';
+import 'package:ecommerce_flutter_app/constants.dart';
+import 'package:ecommerce_flutter_app/models/product_model.dart';
+import 'package:ecommerce_flutter_app/screens/Detail/widgets/addto_cart.dart';
+import 'package:ecommerce_flutter_app/screens/Detail/widgets/description.dart';
+import 'package:ecommerce_flutter_app/screens/Detail/widgets/detail_app_bar.dart';
+import 'package:ecommerce_flutter_app/screens/Detail/widgets/image_slider.dart';
+import 'package:ecommerce_flutter_app/screens/Detail/widgets/items_details.dart';
 import 'package:flutter/material.dart';
 
 class DetailScreen extends StatefulWidget {

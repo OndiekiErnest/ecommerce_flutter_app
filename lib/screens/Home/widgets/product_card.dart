@@ -1,7 +1,7 @@
-import 'package:ecommerce_mobile_app/Provider/favorite_provider.dart';
-import 'package:ecommerce_mobile_app/constants.dart';
-import 'package:ecommerce_mobile_app/models/product_model.dart';
-import 'package:ecommerce_mobile_app/screens/Detail/detail_screen.dart';
+import 'package:ecommerce_flutter_app/Provider/favorite_provider.dart';
+import 'package:ecommerce_flutter_app/constants.dart';
+import 'package:ecommerce_flutter_app/models/product_model.dart';
+import 'package:ecommerce_flutter_app/screens/Detail/detail_screen.dart';
 import 'package:flutter/material.dart';
 
 class ProductCard extends StatelessWidget {
