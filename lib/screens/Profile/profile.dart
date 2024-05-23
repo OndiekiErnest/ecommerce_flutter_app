@@ -15,7 +15,7 @@ class Profile extends StatelessWidget {
         children: [
           // set image as background
           Image.asset(
-            "images/profile3.png",
+            "images/profile3.jpg",
             fit: BoxFit.cover,
             height: size.height,
             width: size.width,
@@ -47,7 +47,7 @@ class Profile extends StatelessWidget {
                                     const CircleAvatar(
                                       radius: 42,
                                       backgroundImage:
-                                          AssetImage("images/profile3.png"),
+                                          AssetImage("images/profile3.jpg"),
                                     ),
                                     Positioned(
                                       bottom: 0,

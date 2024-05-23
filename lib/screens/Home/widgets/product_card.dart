@@ -25,7 +25,7 @@ class ProductCard extends StatelessWidget {
           Container(
             width: double.infinity,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(20),
+              borderRadius: BorderRadius.circular(10),
               color: kcontentColor,
             ),
             child: Column(
@@ -54,33 +54,38 @@ class ProductCard extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 10),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Text(
-                      "\$${product.price}",
-                      style: const TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 17,
-                      ),
-                    ),
-                    // display product colors
-                    Row(
-                      children: List.generate(
-                        product.colors.length,
-                        (index) => Container(
-                          width: 18,
-                          height: 18,
-                          margin: const EdgeInsets.only(right: 4),
-                          decoration: BoxDecoration(
-                            color: product.colors[index],
-                            shape: BoxShape.circle,
-                          ),
+                const SizedBox(height: 20),
+                Padding(
+                  padding: const EdgeInsets.only(left: 10, right: 30),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    // align left
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "\$${product.price}",
+                        style: const TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 17,
                         ),
                       ),
-                    )
-                  ],
+                      // display product colors
+                      Row(
+                        children: List.generate(
+                          product.colors.length,
+                          (index) => Container(
+                            width: 18,
+                            height: 18,
+                            margin: const EdgeInsets.only(right: 4),
+                            decoration: BoxDecoration(
+                              color: product.colors[index],
+                              shape: BoxShape.circle,
+                            ),
+                          ),
+                        ),
+                      )
+                    ],
+                  ),
                 )
               ],
             ),
@@ -95,7 +100,7 @@ class ProductCard extends StatelessWidget {
                 decoration: const BoxDecoration(
                   color: kprimaryColor,
                   borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(20),
+                    topRight: Radius.circular(10),
                     bottomLeft: Radius.circular(2),
                   ),
                 ),
