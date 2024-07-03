@@ -15,7 +15,7 @@ class BottomNavBar extends StatefulWidget {
 
 class _BottomNavBarState extends State<BottomNavBar> {
   // start at 0
-  int cuttentIndex = 0;
+  int currentIndex = 0;
 
   // screens to display
   List screens = const [
@@ -42,55 +42,55 @@ class _BottomNavBarState extends State<BottomNavBar> {
             IconButton(
               onPressed: () {
                 setState(() {
-                  cuttentIndex = 0;
+                  currentIndex = 0;
                 });
               },
               icon: Icon(
                 Icons.home,
                 size: 30,
-                color: cuttentIndex == 0 ? kprimaryColor : Colors.grey.shade400,
+                color: currentIndex == 0 ? kprimaryColor : Colors.grey.shade400,
               ),
             ),
             IconButton(
               onPressed: () {
                 setState(() {
-                  cuttentIndex = 1;
+                  currentIndex = 1;
                 });
               },
               icon: Icon(
                 Icons.favorite_border,
                 size: 30,
-                color: cuttentIndex == 1 ? kprimaryColor : Colors.grey.shade400,
+                color: currentIndex == 1 ? kprimaryColor : Colors.grey.shade400,
               ),
             ),
             IconButton(
               onPressed: () {
                 setState(() {
-                  cuttentIndex = 2;
+                  currentIndex = 2;
                 });
               },
               icon: Icon(
                 Icons.shopping_cart_outlined,
                 size: 30,
-                color: cuttentIndex == 2 ? kprimaryColor : Colors.grey.shade400,
+                color: currentIndex == 2 ? kprimaryColor : Colors.grey.shade400,
               ),
             ),
             IconButton(
               onPressed: () {
                 setState(() {
-                  cuttentIndex = 3;
+                  currentIndex = 3;
                 });
               },
               icon: Icon(
                 Icons.person,
                 size: 30,
-                color: cuttentIndex == 3 ? kprimaryColor : Colors.grey.shade400,
+                color: currentIndex == 3 ? kprimaryColor : Colors.grey.shade400,
               ),
             ),
           ],
         ),
       ),
-      body: screens[cuttentIndex],
+      body: screens[currentIndex],
     );
   }
 }
